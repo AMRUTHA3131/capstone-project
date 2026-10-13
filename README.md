@@ -38,16 +38,16 @@ Testing is limited to this intentionally vulnerable local application. No third-
 
 ## Repository Structure
 
-- `Planning/` — project objectives, scope, and schedule
-- `Methodology/` — testing approach and procedure
-- `Scripts/` — scripts for inspecting HTTP responses and headers
-- `Reconnaissance/` — initial observations
-- `Findings/` — vulnerability assessment notes and risk summary
-- `Mitigations/` — recommended remediation measures
-- `Incident-Response/` — log review and incident-response notes
-- `Screenshots/` — evidence captured during testing
-- `Diagrams/` — project and incident-response diagrams
-- `Report/` — final assessment report
+- `Planning` — project objectives, scope, and schedule
+- `Methodology` — testing approach and procedure
+- `Scripts` — scripts for inspecting HTTP responses and headers
+- `Reconnaissance` — initial observations
+- `Findings` — vulnerability assessment notes and risk summary
+- `Mitigations` — recommended remediation measures
+- `Incident-Response` — log review and incident-response notes
+- `Screenshots` — evidence captured during testing
+- `Diagrams` — project and incident-response diagrams
+- `Report` — final assessment report
 
 ## How to Use the Scripts
 

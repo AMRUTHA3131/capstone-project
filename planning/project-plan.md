@@ -55,6 +55,79 @@ Excluded activities:
 7. Document mitigations and retesting status.
 8. Review available logs.
 
+Diagram:
+
+```
++---------------------------+
+| Tester: Kali Linux        |
+| Browser / cURL / Burp     |
++-------------+-------------+
+              |
+              | HTTP
+              v
++---------------------------+
+| Local Docker Environment  |
+|                           |
+| DVWA Web Application      |
+|        |                  |
+|        v                  |
+| MariaDB Database          |
++---------------------------+
+```
+
+The browser accesses DVWA through `http://localhost:4280`. This diagram is a simplified representation; adjust it if your actual Docker configuration differs.
+
+## Diagram 2: Assessment Workflow
+
+```
+Planning and Scope
+        |
+        v
+Reconnaissance
+        |
+        v
+HTTP and Header Inspection
+        |
+        v
+Vulnerability Assessment
+        |
+        v
+Evidence Collection
+        |
+        v
+Risk Assessment
+        |
+        v
+Mitigation Recommendations
+        |
+        v
+Retesting and Reporting
+```
+
+## Diagram 3: Incident-Response Workflow
+
+```text
+Identify
+   |
+   v
+Collect Evidence
+   |
+   v
+Analyze Logs
+   |
+   v
+Contain if Required
+   |
+   v
+Remediate and Recover
+   |
+   v
+Retest
+   |
+   v
+Document Lessons Learned
+```
+
 ## Limitations
 
 Results apply only to the tested local DVWA configuration and the tests actually performed. They should not be interpreted as a complete security assessment of a production application.
